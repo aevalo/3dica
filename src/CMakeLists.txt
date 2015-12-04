@@ -1,7 +1,7 @@
 find_package(PkgConfig)
 pkg_check_modules(SDL2 REQUIRED sdl2)
 
-find_package(Boost 1.57 REQUIRED)
+find_package(Boost 1.57 REQUIRED COMPONENTS random)
 
 include_directories(${SDL2_INCLUDE_DIRS} ${Boost_INCLUDE_DIRS})
 link_directories(${SDL2_LIBRARY_DIRS} ${Boost_LIBRARY_DIRS})
