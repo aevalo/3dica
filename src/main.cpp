@@ -128,7 +128,7 @@ SDL_Point vector2point(const vector_i& v, const int scale)
   return point;
 }
 
-int main(int argc, const char* const argv[])
+int main(int argc, char* argv[])
 {
   int windowWidth = 640;
   int windowHeight = 480;

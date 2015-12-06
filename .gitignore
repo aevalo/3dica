@@ -29,3 +29,8 @@
 
 # CMake
 build/
+
+# Visual Studio
+.vs/
+Debug/
+Release/
